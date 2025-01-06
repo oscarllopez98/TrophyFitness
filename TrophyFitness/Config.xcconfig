@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  TrophyFitness
+//
+//  Created by Oscar Lopez on 1/4/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL_DEV = https://tceyng89ph.execute-api.us-east-1.amazonaws.com/dev
+BASE_URL_PROD = https://tceyng89ph.execute-api.us-east-1.amazonaws.com/prod
+BASE_URL_STAGING = https://tceyng89ph.execute-api.us-east-1.amazonaws.com/staging

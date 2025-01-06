@@ -7,18 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1303A12D2724A900E74832 /* UserRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303A02D2724A900E74832 /* UserRequestModel.swift */; };
+		9F1303A32D2724BB00E74832 /* WorkoutRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303A22D2724BB00E74832 /* WorkoutRequestModel.swift */; };
+		9F1303A52D2724C900E74832 /* ExerciseRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303A42D2724C900E74832 /* ExerciseRequestModel.swift */; };
+		9F1303A72D2724DC00E74832 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303A62D2724DC00E74832 /* Validation.swift */; };
+		9F1303B92D2A1C6700E74832 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303B82D2A1C6700E74832 /* APIManager.swift */; };
+		9F1303BB2D2A1D0A00E74832 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9F1303BA2D2A1CFA00E74832 /* Config.xcconfig */; };
+		9F1303BD2D2C574200E74832 /* WorkoutAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303BC2D2C574200E74832 /* WorkoutAPIManager.swift */; };
+		9F1303BF2D2C57AD00E74832 /* ExerciseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303BE2D2C57AD00E74832 /* ExerciseAPIManager.swift */; };
+		9F1303C42D2C58EE00E74832 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303C32D2C58EE00E74832 /* Workout.swift */; };
+		9F1303C62D2C590300E74832 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303C52D2C590300E74832 /* Exercise.swift */; };
+		9F1303CA2D2C62D000E74832 /* WorkoutResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303C92D2C62D000E74832 /* WorkoutResponseModel.swift */; };
+		9F1303CC2D2C62DA00E74832 /* ExerciseResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303CB2D2C62DA00E74832 /* ExerciseResponseModel.swift */; };
+		9F1303CE2D2C630F00E74832 /* ErrorResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303CD2D2C630F00E74832 /* ErrorResponseModel.swift */; };
+		9F1303D02D2C652600E74832 /* VoidResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303CF2D2C652600E74832 /* VoidResponse.swift */; };
 		9F467B9F2D24B92A004E403A /* TrophyFitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467B9E2D24B92A004E403A /* TrophyFitnessApp.swift */; };
 		9F467BA12D24B92A004E403A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467BA02D24B92A004E403A /* ContentView.swift */; };
 		9F467BA32D24B92C004E403A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F467BA22D24B92C004E403A /* Assets.xcassets */; };
 		9F467BA62D24B92C004E403A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F467BA52D24B92C004E403A /* Preview Assets.xcassets */; };
+		9F467BD82D24BF5E004E403A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F467BC92D24BF5E004E403A /* Preview Assets.xcassets */; };
+		9F467BD92D24BF5E004E403A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F467BD42D24BF5E004E403A /* Assets.xcassets */; };
+		9F467BDA2D24BF5E004E403A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467BD52D24BF5E004E403A /* ContentView.swift */; };
+		9F467BDB2D24BF5E004E403A /* TrophyFitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467BD62D24BF5E004E403A /* TrophyFitnessApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F1303A02D2724A900E74832 /* UserRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequestModel.swift; sourceTree = "<group>"; };
+		9F1303A22D2724BB00E74832 /* WorkoutRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRequestModel.swift; sourceTree = "<group>"; };
+		9F1303A42D2724C900E74832 /* ExerciseRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRequestModel.swift; sourceTree = "<group>"; };
+		9F1303A62D2724DC00E74832 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		9F1303B82D2A1C6700E74832 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		9F1303BA2D2A1CFA00E74832 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		9F1303BC2D2C574200E74832 /* WorkoutAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAPIManager.swift; sourceTree = "<group>"; };
+		9F1303BE2D2C57AD00E74832 /* ExerciseAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseAPIManager.swift; sourceTree = "<group>"; };
+		9F1303C32D2C58EE00E74832 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		9F1303C52D2C590300E74832 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		9F1303C92D2C62D000E74832 /* WorkoutResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutResponseModel.swift; sourceTree = "<group>"; };
+		9F1303CB2D2C62DA00E74832 /* ExerciseResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseResponseModel.swift; sourceTree = "<group>"; };
+		9F1303CD2D2C630F00E74832 /* ErrorResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponseModel.swift; sourceTree = "<group>"; };
+		9F1303CF2D2C652600E74832 /* VoidResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoidResponse.swift; sourceTree = "<group>"; };
 		9F467B9B2D24B92A004E403A /* TrophyFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrophyFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F467B9E2D24B92A004E403A /* TrophyFitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophyFitnessApp.swift; sourceTree = "<group>"; };
 		9F467BA02D24B92A004E403A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F467BA22D24B92C004E403A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F467BA52D24B92C004E403A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F467BC92D24BF5E004E403A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F467BD42D24BF5E004E403A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F467BD52D24BF5E004E403A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F467BD62D24BF5E004E403A /* TrophyFitnessApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrophyFitnessApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +68,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F13039F2D2724A000E74832 /* requests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1303A02D2724A900E74832 /* UserRequestModel.swift */,
+				9F1303A22D2724BB00E74832 /* WorkoutRequestModel.swift */,
+				9F1303A42D2724C900E74832 /* ExerciseRequestModel.swift */,
+				9F1303A62D2724DC00E74832 /* Validation.swift */,
+			);
+			path = requests;
+			sourceTree = "<group>";
+		};
+		9F1303AF2D2876FC00E74832 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				9F1303B22D28777400E74832 /* forgot-password */,
+				9F1303B32D28778D00E74832 /* sign-up */,
+				9F1303B42D2877A000E74832 /* sign-in */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		9F1303B02D28771200E74832 /* health-check */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "health-check";
+			sourceTree = "<group>";
+		};
+		9F1303B12D28774800E74832 /* workouts */ = {
+			isa = PBXGroup;
+			children = (
+				9F1303B52D2877FF00E74832 /* create */,
+				9F1303B72D28780D00E74832 /* delete */,
+				9F1303B62D28780600E74832 /* get-all */,
+			);
+			path = workouts;
+			sourceTree = "<group>";
+		};
+		9F1303B22D28777400E74832 /* forgot-password */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "forgot-password";
+			sourceTree = "<group>";
+		};
+		9F1303B32D28778D00E74832 /* sign-up */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "sign-up";
+			sourceTree = "<group>";
+		};
+		9F1303B42D2877A000E74832 /* sign-in */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "sign-in";
+			sourceTree = "<group>";
+		};
+		9F1303B52D2877FF00E74832 /* create */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		9F1303B62D28780600E74832 /* get-all */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "get-all";
+			sourceTree = "<group>";
+		};
+		9F1303B72D28780D00E74832 /* delete */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = delete;
+			sourceTree = "<group>";
+		};
+		9F1303C22D2C58BF00E74832 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9F1303C32D2C58EE00E74832 /* Workout.swift */,
+				9F1303C52D2C590300E74832 /* Exercise.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		9F1303C82D2C62B300E74832 /* responses */ = {
+			isa = PBXGroup;
+			children = (
+				9F1303C92D2C62D000E74832 /* WorkoutResponseModel.swift */,
+				9F1303CB2D2C62DA00E74832 /* ExerciseResponseModel.swift */,
+				9F1303CD2D2C630F00E74832 /* ErrorResponseModel.swift */,
+				9F1303CF2D2C652600E74832 /* VoidResponse.swift */,
+			);
+			path = responses;
+			sourceTree = "<group>";
+		};
 		9F467B922D24B92A004E403A = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +187,12 @@
 		9F467B9D2D24B92A004E403A /* TrophyFitness */ = {
 			isa = PBXGroup;
 			children = (
+				9F467BD72D24BF5E004E403A /* TrophyFitness */,
 				9F467B9E2D24B92A004E403A /* TrophyFitnessApp.swift */,
 				9F467BA02D24B92A004E403A /* ContentView.swift */,
 				9F467BA22D24B92C004E403A /* Assets.xcassets */,
 				9F467BA42D24B92C004E403A /* Preview Content */,
+				9F1303BA2D2A1CFA00E74832 /* Config.xcconfig */,
 			);
 			path = TrophyFitness;
 			sourceTree = "<group>";
@@ -65,6 +203,322 @@
 				9F467BA52D24B92C004E403A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F467BAC2D24BF5E004E403A /* exercise */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = exercise;
+			sourceTree = "<group>";
+		};
+		9F467BAD2D24BF5E004E403A /* api */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BAC2D24BF5E004E403A /* exercise */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		9F467BAE2D24BF5E004E403A /* api-gateway */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BAD2D24BF5E004E403A /* api */,
+			);
+			path = "api-gateway";
+			sourceTree = "<group>";
+		};
+		9F467BAF2D24BF5E004E403A /* logs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = logs;
+			sourceTree = "<group>";
+		};
+		9F467BB02D24BF5E004E403A /* cloudwatch */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BAF2D24BF5E004E403A /* logs */,
+			);
+			path = cloudwatch;
+			sourceTree = "<group>";
+		};
+		9F467BB12D24BF5E004E403A /* cognito */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cognito;
+			sourceTree = "<group>";
+		};
+		9F467BB22D24BF5E004E403A /* iam */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iam;
+			sourceTree = "<group>";
+		};
+		9F467BB52D24BF5E004E403A /* lambda */ = {
+			isa = PBXGroup;
+			children = (
+				9F1303B12D28774800E74832 /* workouts */,
+				9F1303B02D28771200E74832 /* health-check */,
+				9F1303AF2D2876FC00E74832 /* auth */,
+			);
+			path = lambda;
+			sourceTree = "<group>";
+		};
+		9F467BB62D24BF5E004E403A /* database-configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "database-configuration";
+			sourceTree = "<group>";
+		};
+		9F467BB72D24BF5E004E403A /* rds */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BB62D24BF5E004E403A /* database-configuration */,
+			);
+			path = rds;
+			sourceTree = "<group>";
+		};
+		9F467BB82D24BF5E004E403A /* aws */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BAE2D24BF5E004E403A /* api-gateway */,
+				9F467BB02D24BF5E004E403A /* cloudwatch */,
+				9F467BB12D24BF5E004E403A /* cognito */,
+				9F467BB22D24BF5E004E403A /* iam */,
+				9F467BB52D24BF5E004E403A /* lambda */,
+				9F467BB72D24BF5E004E403A /* rds */,
+			);
+			path = aws;
+			sourceTree = "<group>";
+		};
+		9F467BB92D24BF5E004E403A /* amplify */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = amplify;
+			sourceTree = "<group>";
+		};
+		9F467BBA2D24BF5E004E403A /* openai */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = openai;
+			sourceTree = "<group>";
+		};
+		9F467BBB2D24BF5E004E403A /* integrations */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BB92D24BF5E004E403A /* amplify */,
+				9F467BBA2D24BF5E004E403A /* openai */,
+			);
+			path = integrations;
+			sourceTree = "<group>";
+		};
+		9F467BBC2D24BF5E004E403A /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BB82D24BF5E004E403A /* aws */,
+				9F467BBB2D24BF5E004E403A /* integrations */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		9F467BBD2D24BF5E004E403A /* amplify-setup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "amplify-setup";
+			sourceTree = "<group>";
+		};
+		9F467BBE2D24BF5E004E403A /* api-requests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1303B82D2A1C6700E74832 /* APIManager.swift */,
+				9F1303BC2D2C574200E74832 /* WorkoutAPIManager.swift */,
+				9F1303BE2D2C57AD00E74832 /* ExerciseAPIManager.swift */,
+			);
+			path = "api-requests";
+			sourceTree = "<group>";
+		};
+		9F467BBF2D24BF5E004E403A /* auth-flow-configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "auth-flow-configuration";
+			sourceTree = "<group>";
+		};
+		9F467BC02D24BF5E004E403A /* data-models */ = {
+			isa = PBXGroup;
+			children = (
+				9F1303C82D2C62B300E74832 /* responses */,
+				9F1303C22D2C58BF00E74832 /* models */,
+				9F13039F2D2724A000E74832 /* requests */,
+			);
+			path = "data-models";
+			sourceTree = "<group>";
+		};
+		9F467BC12D24BF5E004E403A /* exercise-creation-flow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "exercise-creation-flow";
+			sourceTree = "<group>";
+		};
+		9F467BC22D24BF5E004E403A /* exercise-display */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "exercise-display";
+			sourceTree = "<group>";
+		};
+		9F467BC32D24BF5E004E403A /* sign-in */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "sign-in";
+			sourceTree = "<group>";
+		};
+		9F467BC42D24BF5E004E403A /* sign-out */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "sign-out";
+			sourceTree = "<group>";
+		};
+		9F467BC52D24BF5E004E403A /* sign-up */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "sign-up";
+			sourceTree = "<group>";
+		};
+		9F467BC62D24BF5E004E403A /* ui */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		9F467BC72D24BF5E004E403A /* ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BBD2D24BF5E004E403A /* amplify-setup */,
+				9F467BBE2D24BF5E004E403A /* api-requests */,
+				9F467BBF2D24BF5E004E403A /* auth-flow-configuration */,
+				9F467BC02D24BF5E004E403A /* data-models */,
+				9F467BC12D24BF5E004E403A /* exercise-creation-flow */,
+				9F467BC22D24BF5E004E403A /* exercise-display */,
+				9F467BC32D24BF5E004E403A /* sign-in */,
+				9F467BC42D24BF5E004E403A /* sign-out */,
+				9F467BC52D24BF5E004E403A /* sign-up */,
+				9F467BC62D24BF5E004E403A /* ui */,
+			);
+			path = "ios-app";
+			sourceTree = "<group>";
+		};
+		9F467BC82D24BF5E004E403A /* frontend */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BC72D24BF5E004E403A /* ios-app */,
+			);
+			path = frontend;
+			sourceTree = "<group>";
+		};
+		9F467BCA2D24BF5E004E403A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BC92D24BF5E004E403A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F467BCB2D24BF5E004E403A /* architecture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = architecture;
+			sourceTree = "<group>";
+		};
+		9F467BCC2D24BF5E004E403A /* setup-guides */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "setup-guides";
+			sourceTree = "<group>";
+		};
+		9F467BCD2D24BF5E004E403A /* testing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = testing;
+			sourceTree = "<group>";
+		};
+		9F467BCE2D24BF5E004E403A /* documentation */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BCB2D24BF5E004E403A /* architecture */,
+				9F467BCC2D24BF5E004E403A /* setup-guides */,
+				9F467BCD2D24BF5E004E403A /* testing */,
+			);
+			path = documentation;
+			sourceTree = "<group>";
+		};
+		9F467BCF2D24BF5E004E403A /* code-samples */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "code-samples";
+			sourceTree = "<group>";
+		};
+		9F467BD02D24BF5E004E403A /* community-links */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "community-links";
+			sourceTree = "<group>";
+		};
+		9F467BD12D24BF5E004E403A /* tutorials */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tutorials;
+			sourceTree = "<group>";
+		};
+		9F467BD22D24BF5E004E403A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BCF2D24BF5E004E403A /* code-samples */,
+				9F467BD02D24BF5E004E403A /* community-links */,
+				9F467BD12D24BF5E004E403A /* tutorials */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		9F467BD32D24BF5E004E403A /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BCE2D24BF5E004E403A /* documentation */,
+				9F467BD22D24BF5E004E403A /* resources */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		9F467BD72D24BF5E004E403A /* TrophyFitness */ = {
+			isa = PBXGroup;
+			children = (
+				9F467BBC2D24BF5E004E403A /* backend */,
+				9F467BC82D24BF5E004E403A /* frontend */,
+				9F467BCA2D24BF5E004E403A /* Preview Content */,
+				9F467BD32D24BF5E004E403A /* shared */,
+				9F467BD42D24BF5E004E403A /* Assets.xcassets */,
+				9F467BD52D24BF5E004E403A /* ContentView.swift */,
+				9F467BD62D24BF5E004E403A /* TrophyFitnessApp.swift */,
+			);
+			name = TrophyFitness;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +580,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F467BA62D24B92C004E403A /* Preview Assets.xcassets in Resources */,
+				9F1303BB2D2A1D0A00E74832 /* Config.xcconfig in Resources */,
+				9F467BD82D24BF5E004E403A /* Preview Assets.xcassets in Resources */,
+				9F467BD92D24BF5E004E403A /* Assets.xcassets in Resources */,
 				9F467BA32D24B92C004E403A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +594,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1303CA2D2C62D000E74832 /* WorkoutResponseModel.swift in Sources */,
+				9F467BDB2D24BF5E004E403A /* TrophyFitnessApp.swift in Sources */,
+				9F1303A32D2724BB00E74832 /* WorkoutRequestModel.swift in Sources */,
+				9F1303A52D2724C900E74832 /* ExerciseRequestModel.swift in Sources */,
+				9F1303B92D2A1C6700E74832 /* APIManager.swift in Sources */,
 				9F467BA12D24B92A004E403A /* ContentView.swift in Sources */,
 				9F467B9F2D24B92A004E403A /* TrophyFitnessApp.swift in Sources */,
+				9F467BDA2D24BF5E004E403A /* ContentView.swift in Sources */,
+				9F1303A72D2724DC00E74832 /* Validation.swift in Sources */,
+				9F1303BF2D2C57AD00E74832 /* ExerciseAPIManager.swift in Sources */,
+				9F1303CC2D2C62DA00E74832 /* ExerciseResponseModel.swift in Sources */,
+				9F1303C62D2C590300E74832 /* Exercise.swift in Sources */,
+				9F1303BD2D2C574200E74832 /* WorkoutAPIManager.swift in Sources */,
+				9F1303CE2D2C630F00E74832 /* ErrorResponseModel.swift in Sources */,
+				9F1303A12D2724A900E74832 /* UserRequestModel.swift in Sources */,
+				9F1303D02D2C652600E74832 /* VoidResponse.swift in Sources */,
+				9F1303C42D2C58EE00E74832 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
