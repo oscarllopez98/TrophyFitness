@@ -10,10 +10,11 @@ import Foundation
 class ExerciseAPIManager {
     static let shared = ExerciseAPIManager()
 
+    // Use the correct base URL based on the build configuration
     #if DEBUG
-    let baseURL = Bundle.main.infoDictionary?["BASE_URL_DEV"] as? String ?? ""
+    let baseURL = (Bundle.main.infoDictionary?["BASE_URL_DEV"] as? String ?? "").replacingOccurrences(of: "&", with: "")
     #else
-    let baseURL = Bundle.main.infoDictionary?["BASE_URL_PROD"] as? String ?? ""
+    let baseURL = (Bundle.main.infoDictionary?["BASE_URL_PROD"] as? String ?? "").replacingOccurrences(of: "&", with: "")
     #endif
 
     // MARK: - Create Exercise

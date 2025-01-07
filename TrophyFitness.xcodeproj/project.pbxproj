@@ -21,15 +21,24 @@
 		9F1303CC2D2C62DA00E74832 /* ExerciseResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303CB2D2C62DA00E74832 /* ExerciseResponseModel.swift */; };
 		9F1303CE2D2C630F00E74832 /* ErrorResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303CD2D2C630F00E74832 /* ErrorResponseModel.swift */; };
 		9F1303D02D2C652600E74832 /* VoidResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303CF2D2C652600E74832 /* VoidResponse.swift */; };
+		9F1303E02D2C6A0D00E74832 /* TrophyFitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303DF2D2C6A0D00E74832 /* TrophyFitnessTests.swift */; };
+		9F1303E82D2C6A3A00E74832 /* ExerciseAPIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303E72D2C6A3A00E74832 /* ExerciseAPIManagerTests.swift */; };
+		9F1303EC2D2C70FA00E74832 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9F1303EB2D2C70FA00E74832 /* Config.xcconfig */; };
 		9F467B9F2D24B92A004E403A /* TrophyFitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467B9E2D24B92A004E403A /* TrophyFitnessApp.swift */; };
 		9F467BA12D24B92A004E403A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467BA02D24B92A004E403A /* ContentView.swift */; };
 		9F467BA32D24B92C004E403A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F467BA22D24B92C004E403A /* Assets.xcassets */; };
-		9F467BA62D24B92C004E403A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F467BA52D24B92C004E403A /* Preview Assets.xcassets */; };
 		9F467BD82D24BF5E004E403A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F467BC92D24BF5E004E403A /* Preview Assets.xcassets */; };
-		9F467BD92D24BF5E004E403A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F467BD42D24BF5E004E403A /* Assets.xcassets */; };
-		9F467BDA2D24BF5E004E403A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467BD52D24BF5E004E403A /* ContentView.swift */; };
-		9F467BDB2D24BF5E004E403A /* TrophyFitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467BD62D24BF5E004E403A /* TrophyFitnessApp.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F1303E12D2C6A0D00E74832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F467B932D24B92A004E403A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F467B9A2D24B92A004E403A;
+			remoteInfo = TrophyFitness;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9F1303A02D2724A900E74832 /* UserRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequestModel.swift; sourceTree = "<group>"; };
@@ -46,18 +55,27 @@
 		9F1303CB2D2C62DA00E74832 /* ExerciseResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseResponseModel.swift; sourceTree = "<group>"; };
 		9F1303CD2D2C630F00E74832 /* ErrorResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponseModel.swift; sourceTree = "<group>"; };
 		9F1303CF2D2C652600E74832 /* VoidResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoidResponse.swift; sourceTree = "<group>"; };
+		9F1303DD2D2C6A0D00E74832 /* TrophyFitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrophyFitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1303DF2D2C6A0D00E74832 /* TrophyFitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophyFitnessTests.swift; sourceTree = "<group>"; };
+		9F1303E72D2C6A3A00E74832 /* ExerciseAPIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseAPIManagerTests.swift; sourceTree = "<group>"; };
+		9F1303E92D2C6D2300E74832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9F1303EB2D2C70FA00E74832 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		9F1303ED2D2C77D400E74832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F467B9B2D24B92A004E403A /* TrophyFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrophyFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F467B9E2D24B92A004E403A /* TrophyFitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophyFitnessApp.swift; sourceTree = "<group>"; };
 		9F467BA02D24B92A004E403A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F467BA22D24B92C004E403A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F467BA52D24B92C004E403A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F467BC92D24BF5E004E403A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9F467BD42D24BF5E004E403A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F467BD52D24BF5E004E403A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9F467BD62D24BF5E004E403A /* TrophyFitnessApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrophyFitnessApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9F1303DA2D2C6A0D00E74832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F467B982D24B92A004E403A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,10 +186,30 @@
 			path = responses;
 			sourceTree = "<group>";
 		};
+		9F1303DE2D2C6A0D00E74832 /* TrophyFitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1303E62D2C6A2600E74832 /* APIManagerTests */,
+				9F1303DF2D2C6A0D00E74832 /* TrophyFitnessTests.swift */,
+				9F1303EB2D2C70FA00E74832 /* Config.xcconfig */,
+				9F1303ED2D2C77D400E74832 /* Info.plist */,
+			);
+			path = TrophyFitnessTests;
+			sourceTree = "<group>";
+		};
+		9F1303E62D2C6A2600E74832 /* APIManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1303E72D2C6A3A00E74832 /* ExerciseAPIManagerTests.swift */,
+			);
+			path = APIManagerTests;
+			sourceTree = "<group>";
+		};
 		9F467B922D24B92A004E403A = {
 			isa = PBXGroup;
 			children = (
 				9F467B9D2D24B92A004E403A /* TrophyFitness */,
+				9F1303DE2D2C6A0D00E74832 /* TrophyFitnessTests */,
 				9F467B9C2D24B92A004E403A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -180,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				9F467B9B2D24B92A004E403A /* TrophyFitness.app */,
+				9F1303DD2D2C6A0D00E74832 /* TrophyFitnessTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,22 +226,16 @@
 		9F467B9D2D24B92A004E403A /* TrophyFitness */ = {
 			isa = PBXGroup;
 			children = (
-				9F467BD72D24BF5E004E403A /* TrophyFitness */,
+				9F1303E92D2C6D2300E74832 /* Info.plist */,
+				9F467BC82D24BF5E004E403A /* frontend */,
+				9F467BD32D24BF5E004E403A /* shared */,
+				9F467BCA2D24BF5E004E403A /* Preview Content */,
 				9F467B9E2D24B92A004E403A /* TrophyFitnessApp.swift */,
 				9F467BA02D24B92A004E403A /* ContentView.swift */,
 				9F467BA22D24B92C004E403A /* Assets.xcassets */,
-				9F467BA42D24B92C004E403A /* Preview Content */,
 				9F1303BA2D2A1CFA00E74832 /* Config.xcconfig */,
 			);
 			path = TrophyFitness;
-			sourceTree = "<group>";
-		};
-		9F467BA42D24B92C004E403A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9F467BA52D24B92C004E403A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		9F467BAC2D24BF5E004E403A /* exercise */ = {
@@ -423,6 +456,7 @@
 		9F467BC82D24BF5E004E403A /* frontend */ = {
 			isa = PBXGroup;
 			children = (
+				9F467BBC2D24BF5E004E403A /* backend */,
 				9F467BC72D24BF5E004E403A /* ios-app */,
 			);
 			path = frontend;
@@ -507,23 +541,27 @@
 			path = shared;
 			sourceTree = "<group>";
 		};
-		9F467BD72D24BF5E004E403A /* TrophyFitness */ = {
-			isa = PBXGroup;
-			children = (
-				9F467BBC2D24BF5E004E403A /* backend */,
-				9F467BC82D24BF5E004E403A /* frontend */,
-				9F467BCA2D24BF5E004E403A /* Preview Content */,
-				9F467BD32D24BF5E004E403A /* shared */,
-				9F467BD42D24BF5E004E403A /* Assets.xcassets */,
-				9F467BD52D24BF5E004E403A /* ContentView.swift */,
-				9F467BD62D24BF5E004E403A /* TrophyFitnessApp.swift */,
-			);
-			name = TrophyFitness;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9F1303DC2D2C6A0D00E74832 /* TrophyFitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1303E32D2C6A0D00E74832 /* Build configuration list for PBXNativeTarget "TrophyFitnessTests" */;
+			buildPhases = (
+				9F1303D92D2C6A0D00E74832 /* Sources */,
+				9F1303DA2D2C6A0D00E74832 /* Frameworks */,
+				9F1303DB2D2C6A0D00E74832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1303E22D2C6A0D00E74832 /* PBXTargetDependency */,
+			);
+			name = TrophyFitnessTests;
+			productName = TrophyFitnessTests;
+			productReference = 9F1303DD2D2C6A0D00E74832 /* TrophyFitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9F467B9A2D24B92A004E403A /* TrophyFitness */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F467BA92D24B92C004E403A /* Build configuration list for PBXNativeTarget "TrophyFitness" */;
@@ -551,6 +589,10 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					9F1303DC2D2C6A0D00E74832 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9F467B9A2D24B92A004E403A;
+					};
 					9F467B9A2D24B92A004E403A = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -570,19 +612,26 @@
 			projectRoot = "";
 			targets = (
 				9F467B9A2D24B92A004E403A /* TrophyFitness */,
+				9F1303DC2D2C6A0D00E74832 /* TrophyFitnessTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9F1303DB2D2C6A0D00E74832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1303EC2D2C70FA00E74832 /* Config.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F467B992D24B92A004E403A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F467BA62D24B92C004E403A /* Preview Assets.xcassets in Resources */,
 				9F1303BB2D2A1D0A00E74832 /* Config.xcconfig in Resources */,
 				9F467BD82D24BF5E004E403A /* Preview Assets.xcassets in Resources */,
-				9F467BD92D24BF5E004E403A /* Assets.xcassets in Resources */,
 				9F467BA32D24B92C004E403A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -590,18 +639,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9F1303D92D2C6A0D00E74832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1303E82D2C6A3A00E74832 /* ExerciseAPIManagerTests.swift in Sources */,
+				9F1303E02D2C6A0D00E74832 /* TrophyFitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F467B972D24B92A004E403A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9F1303CA2D2C62D000E74832 /* WorkoutResponseModel.swift in Sources */,
-				9F467BDB2D24BF5E004E403A /* TrophyFitnessApp.swift in Sources */,
 				9F1303A32D2724BB00E74832 /* WorkoutRequestModel.swift in Sources */,
 				9F1303A52D2724C900E74832 /* ExerciseRequestModel.swift in Sources */,
 				9F1303B92D2A1C6700E74832 /* APIManager.swift in Sources */,
 				9F467BA12D24B92A004E403A /* ContentView.swift in Sources */,
 				9F467B9F2D24B92A004E403A /* TrophyFitnessApp.swift in Sources */,
-				9F467BDA2D24BF5E004E403A /* ContentView.swift in Sources */,
 				9F1303A72D2724DC00E74832 /* Validation.swift in Sources */,
 				9F1303BF2D2C57AD00E74832 /* ExerciseAPIManager.swift in Sources */,
 				9F1303CC2D2C62DA00E74832 /* ExerciseResponseModel.swift in Sources */,
@@ -616,7 +672,57 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9F1303E22D2C6A0D00E74832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F467B9A2D24B92A004E403A /* TrophyFitness */;
+			targetProxy = 9F1303E12D2C6A0D00E74832 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		9F1303E42D2C6A0D00E74832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1303EB2D2C70FA00E74832 /* Config.xcconfig */;
+			buildSettings = {
+				BASE_URL_TEST = "$(BASE_URL_TEST)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2BHKKWGC2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrophyFitnessTests/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oscarllopez98.TrophyFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrophyFitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrophyFitness";
+			};
+			name = Debug;
+		};
+		9F1303E52D2C6A0D00E74832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1303EB2D2C70FA00E74832 /* Config.xcconfig */;
+			buildSettings = {
+				BASE_URL_TEST = "$(BASE_URL_TEST)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2BHKKWGC2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrophyFitnessTests/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oscarllopez98.TrophyFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrophyFitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrophyFitness";
+			};
+			name = Release;
+		};
 		9F467BA72D24B92C004E403A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -738,6 +844,7 @@
 		};
 		9F467BAA2D24B92C004E403A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1303BA2D2A1CFA00E74832 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -747,6 +854,7 @@
 				DEVELOPMENT_TEAM = Z2BHKKWGC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrophyFitness/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -767,6 +875,7 @@
 		};
 		9F467BAB2D24B92C004E403A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1303BA2D2A1CFA00E74832 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -776,6 +885,7 @@
 				DEVELOPMENT_TEAM = Z2BHKKWGC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrophyFitness/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -797,6 +907,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9F1303E32D2C6A0D00E74832 /* Build configuration list for PBXNativeTarget "TrophyFitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1303E42D2C6A0D00E74832 /* Debug */,
+				9F1303E52D2C6A0D00E74832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9F467B962D24B92A004E403A /* Build configuration list for PBXProject "TrophyFitness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

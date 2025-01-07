@@ -1,13 +1,13 @@
 //
-//  ExerciseAPIManagerTests.swift
-//  TrophyFitness
+//  TrophyFitnessTests.swift
+//  TrophyFitnessTests
 //
 //  Created by Oscar Lopez on 1/6/25.
 //
 
 import XCTest
 
-final class ExerciseAPIManagerTests: XCTestCase {
+final class TrophyFitnessTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,7 +27,7 @@ final class ExerciseAPIManagerTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }

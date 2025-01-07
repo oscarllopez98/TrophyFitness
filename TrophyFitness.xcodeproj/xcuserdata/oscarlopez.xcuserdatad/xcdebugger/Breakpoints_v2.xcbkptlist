@@ -3,4 +3,100 @@
    uuid = "F2333C60-F0A8-4514-A960-7B67425F8EFC"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D5BD61F-BF98-4ABC-8261-860ECB782801"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrophyFitnessTests/APIManagerTests/ExerciseAPIManagerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testCreateExercise_Success()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8D5BD61F-BF98-4ABC-8261-860ECB782801 - 62f6abbf798df495"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrophyFitnessTests.ExerciseAPIManagerTests.testCreateExercise_Success() -&gt; ()"
+                  moduleName = "TrophyFitnessTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscarlopez/Developer/TrophyFitness/TrophyFitnessTests/APIManagerTests/ExerciseAPIManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+               <Location
+                  uuid = "8D5BD61F-BF98-4ABC-8261-860ECB782801 - 29fa3ba82b3bd02a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TrophyFitness.ExerciseResponseModel, TrophyFitness.ErrorResponseModel&gt;) -&gt; () in TrophyFitnessTests.ExerciseAPIManagerTests.testCreateExercise_Success() -&gt; ()"
+                  moduleName = "TrophyFitnessTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscarlopez/Developer/TrophyFitness/TrophyFitnessTests/APIManagerTests/ExerciseAPIManagerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B90FE445-E219-4A25-838A-65ECC936F301"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrophyFitness/frontend/ios-app/api-requests/ExerciseAPIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "request(endpoint:method:body:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4A221D7-15FF-476C-A2D4-C6C786F19238"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrophyFitness/frontend/ios-app/api-requests/ExerciseAPIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ExerciseAPIManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92AFB8B5-72DA-489E-9CE5-ED6BADFB2A4A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrophyFitnessTests/APIManagerTests/ExerciseAPIManagerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "setUp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -1,0 +1,2 @@
+# Exclude .xcconfig files to avoid committing sensitive URLs
+*.xcconfig
