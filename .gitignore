@@ -2,8 +2,8 @@
 *.xcconfig
 
 # Ignore actual config files
-#awsconfiguration.json
-#amplifyconfiguration.json
+awsconfiguration.json
+amplifyconfiguration.json
 
 # Ignore .env file
 .env
