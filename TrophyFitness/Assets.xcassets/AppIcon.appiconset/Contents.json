@@ -1,68 +1,74 @@
 {
-  "images": [
+  "images" : [
     {
-      "idiom": "iphone",
-      "size": "60x60",
-      "scale": "2x",
-      "filename": "120.png"
+      "filename" : "40.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "20x20"
     },
     {
-      "idiom": "iphone",
-      "size": "60x60",
-      "scale": "3x",
-      "filename": "180.png"
+      "filename" : "60.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "20x20"
     },
     {
-      "idiom": "iphone",
-      "size": "29x29",
-      "scale": "2x",
-      "filename": "58.png"
+      "filename" : "58.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "29x29"
     },
     {
-      "idiom": "iphone",
-      "size": "29x29",
-      "scale": "3x",
-      "filename": "87.png"
+      "filename" : "87.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "29x29"
     },
     {
-      "idiom": "iphone",
-      "size": "40x40",
-      "scale": "2x",
-      "filename": "80.png"
+      "filename" : "80.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "40x40"
     },
     {
-      "idiom": "iphone",
-      "size": "40x40",
-      "scale": "3x",
-      "filename": "120.png"
+      "filename" : "120.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "40x40"
     },
     {
-      "idiom": "iphone",
-      "size": "57x57",
-      "scale": "1x",
-      "filename": "57.png"
+      "filename" : "57.png",
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "size" : "57x57"
     },
     {
-      "idiom": "iphone",
-      "size": "20x20",
-      "scale": "2x",
-      "filename": "40.png"
+      "filename" : "114.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "57x57"
     },
     {
-      "idiom": "iphone",
-      "size": "20x20",
-      "scale": "3x",
-      "filename": "60.png"
+      "filename" : "120.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "60x60"
     },
     {
-      "idiom": "ios-marketing",
-      "size": "1024x1024",
-      "scale": "1x",
-      "filename": "1024.png"
+      "filename" : "180.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "60x60"
+    },
+    {
+      "filename" : "1024.png",
+      "idiom" : "ios-marketing",
+      "scale" : "1x",
+      "size" : "1024x1024"
     }
   ],
-  "info": {
-    "version": 1,
-    "author": "xcode"
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
   }
 }
