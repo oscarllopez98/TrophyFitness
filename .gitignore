@@ -8,3 +8,4 @@ amplifyconfiguration.json
 # Ignore .env file
 .envbuild/
 build/XCBuildData
+.env
