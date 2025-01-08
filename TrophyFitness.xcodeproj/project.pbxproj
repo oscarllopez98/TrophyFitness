@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06DF03721FEB3FE08112F276 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A33C1A5CF82C9A22139DF32D /* awsconfiguration.json */; };
+		0A20C53A53637BB51DC994CD /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A777C8AE7A8EFAC46C35030 /* amplifyconfiguration.json */; };
 		9F1303A12D2724A900E74832 /* UserRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303A02D2724A900E74832 /* UserRequestModel.swift */; };
 		9F1303A32D2724BB00E74832 /* WorkoutRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303A22D2724BB00E74832 /* WorkoutRequestModel.swift */; };
 		9F1303A52D2724C900E74832 /* ExerciseRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303A42D2724C900E74832 /* ExerciseRequestModel.swift */; };
@@ -28,6 +30,12 @@
 		9F467BA12D24B92A004E403A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467BA02D24B92A004E403A /* ContentView.swift */; };
 		9F467BA32D24B92C004E403A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F467BA22D24B92C004E403A /* Assets.xcassets */; };
 		9F467BD82D24BF5E004E403A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F467BC92D24BF5E004E403A /* Preview Assets.xcassets */; };
+		9FE7B0852D2CB0700098F9F1 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE7B0842D2CB0700098F9F1 /* AWSCognitoAuthPlugin */; };
+		9FE7B0872D2CB0700098F9F1 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE7B0862D2CB0700098F9F1 /* Amplify */; };
+		9FE7B08A2D2CB2610098F9F1 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7B0892D2CB2610098F9F1 /* AuthView.swift */; };
+		9FE7B08C2D2CB2720098F9F1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7B08B2D2CB2720098F9F1 /* SignUpView.swift */; };
+		9FE7B08F2D2CB5AA0098F9F1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7B08E2D2CB5AA0098F9F1 /* AuthViewModel.swift */; };
+		9FE7B0912D2DB0590098F9F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7B0902D2DB0590098F9F1 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A777C8AE7A8EFAC46C35030 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		9F1303A02D2724A900E74832 /* UserRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequestModel.swift; sourceTree = "<group>"; };
 		9F1303A22D2724BB00E74832 /* WorkoutRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRequestModel.swift; sourceTree = "<group>"; };
 		9F1303A42D2724C900E74832 /* ExerciseRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRequestModel.swift; sourceTree = "<group>"; };
@@ -66,6 +75,14 @@
 		9F467BA02D24B92A004E403A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F467BA22D24B92C004E403A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F467BC92D24BF5E004E403A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FE7B0892D2CB2610098F9F1 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		9FE7B08B2D2CB2720098F9F1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9FE7B08E2D2CB5AA0098F9F1 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		9FE7B0902D2DB0590098F9F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9FE7B0932D2DB0850098F9F1 /* replace_placeholders.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = replace_placeholders.sh; sourceTree = "<group>"; };
+		9FE7B0952D2DB0C10098F9F1 /* amplifyconfiguration.json.template */ = {isa = PBXFileReference; lastKnownFileType = text; path = amplifyconfiguration.json.template; sourceTree = "<group>"; };
+		9FE7B0962D2DB0D40098F9F1 /* awsconfiguration.json.template */ = {isa = PBXFileReference; lastKnownFileType = text; path = awsconfiguration.json.template; sourceTree = "<group>"; };
+		A33C1A5CF82C9A22139DF32D /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE7B0852D2CB0700098F9F1 /* AWSCognitoAuthPlugin in Frameworks */,
+				9FE7B0872D2CB0700098F9F1 /* Amplify in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +230,7 @@
 				9F467B9D2D24B92A004E403A /* TrophyFitness */,
 				9F1303DE2D2C6A0D00E74832 /* TrophyFitnessTests */,
 				9F467B9C2D24B92A004E403A /* Products */,
+				E0797ECCD88985AC5D05C6EA /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -380,6 +400,7 @@
 		9F467BBF2D24BF5E004E403A /* auth-flow-configuration */ = {
 			isa = PBXGroup;
 			children = (
+				9FE7B08E2D2CB5AA0098F9F1 /* AuthViewModel.swift */,
 			);
 			path = "auth-flow-configuration";
 			sourceTree = "<group>";
@@ -432,6 +453,7 @@
 		9F467BC62D24BF5E004E403A /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				9FE7B0902D2DB0590098F9F1 /* HomeView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -439,6 +461,7 @@
 		9F467BC72D24BF5E004E403A /* ios-app */ = {
 			isa = PBXGroup;
 			children = (
+				9FE7B0882D2CB23B0098F9F1 /* authentication-ui */,
 				9F467BBD2D24BF5E004E403A /* amplify-setup */,
 				9F467BBE2D24BF5E004E403A /* api-requests */,
 				9F467BBF2D24BF5E004E403A /* auth-flow-configuration */,
@@ -525,6 +548,8 @@
 		9F467BD22D24BF5E004E403A /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				9FE7B0942D2DB0A00098F9F1 /* config */,
+				9FE7B0922D2DB0740098F9F1 /* scripts */,
 				9F467BCF2D24BF5E004E403A /* code-samples */,
 				9F467BD02D24BF5E004E403A /* community-links */,
 				9F467BD12D24BF5E004E403A /* tutorials */,
@@ -539,6 +564,41 @@
 				9F467BD22D24BF5E004E403A /* resources */,
 			);
 			path = shared;
+			sourceTree = "<group>";
+		};
+		9FE7B0882D2CB23B0098F9F1 /* authentication-ui */ = {
+			isa = PBXGroup;
+			children = (
+				9FE7B0892D2CB2610098F9F1 /* AuthView.swift */,
+				9FE7B08B2D2CB2720098F9F1 /* SignUpView.swift */,
+			);
+			path = "authentication-ui";
+			sourceTree = "<group>";
+		};
+		9FE7B0922D2DB0740098F9F1 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				9FE7B0932D2DB0850098F9F1 /* replace_placeholders.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		9FE7B0942D2DB0A00098F9F1 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				9FE7B0952D2DB0C10098F9F1 /* amplifyconfiguration.json.template */,
+				9FE7B0962D2DB0D40098F9F1 /* awsconfiguration.json.template */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		E0797ECCD88985AC5D05C6EA /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				A33C1A5CF82C9A22139DF32D /* awsconfiguration.json */,
+				0A777C8AE7A8EFAC46C35030 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -566,6 +626,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F467BA92D24B92C004E403A /* Build configuration list for PBXNativeTarget "TrophyFitness" */;
 			buildPhases = (
+				9FE7B0992D2DFFA90098F9F1 /* ShellScript */,
 				9F467B972D24B92A004E403A /* Sources */,
 				9F467B982D24B92A004E403A /* Frameworks */,
 				9F467B992D24B92A004E403A /* Resources */,
@@ -575,6 +636,10 @@
 			dependencies = (
 			);
 			name = TrophyFitness;
+			packageProductDependencies = (
+				9FE7B0842D2CB0700098F9F1 /* AWSCognitoAuthPlugin */,
+				9FE7B0862D2CB0700098F9F1 /* Amplify */,
+			);
 			productName = TrophyFitness;
 			productReference = 9F467B9B2D24B92A004E403A /* TrophyFitness.app */;
 			productType = "com.apple.product-type.application";
@@ -607,6 +672,9 @@
 				Base,
 			);
 			mainGroup = 9F467B922D24B92A004E403A;
+			packageReferences = (
+				9FE7B0832D2CB0700098F9F1 /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
 			productRefGroup = 9F467B9C2D24B92A004E403A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -633,10 +701,32 @@
 				9F1303BB2D2A1D0A00E74832 /* Config.xcconfig in Resources */,
 				9F467BD82D24BF5E004E403A /* Preview Assets.xcassets in Resources */,
 				9F467BA32D24B92C004E403A /* Assets.xcassets in Resources */,
+				06DF03721FEB3FE08112F276 /* awsconfiguration.json in Resources */,
+				0A20C53A53637BB51DC994CD /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FE7B0992D2DFFA90098F9F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Load environment variables from .env file\nif [[ -f \"${SRCROOT}/.env\" ]]; then\n    export $(cat \"${SRCROOT}/.env\" | xargs)\nfi\n\n# Run the shell script\nbash \"${SRCROOT}/TrophyFitness/shared/resources/scripts/replace_placeholders.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F1303D92D2C6A0D00E74832 /* Sources */ = {
@@ -658,15 +748,19 @@
 				9F1303B92D2A1C6700E74832 /* APIManager.swift in Sources */,
 				9F467BA12D24B92A004E403A /* ContentView.swift in Sources */,
 				9F467B9F2D24B92A004E403A /* TrophyFitnessApp.swift in Sources */,
+				9FE7B08A2D2CB2610098F9F1 /* AuthView.swift in Sources */,
 				9F1303A72D2724DC00E74832 /* Validation.swift in Sources */,
+				9FE7B08F2D2CB5AA0098F9F1 /* AuthViewModel.swift in Sources */,
 				9F1303BF2D2C57AD00E74832 /* ExerciseAPIManager.swift in Sources */,
 				9F1303CC2D2C62DA00E74832 /* ExerciseResponseModel.swift in Sources */,
 				9F1303C62D2C590300E74832 /* Exercise.swift in Sources */,
 				9F1303BD2D2C574200E74832 /* WorkoutAPIManager.swift in Sources */,
+				9FE7B08C2D2CB2720098F9F1 /* SignUpView.swift in Sources */,
 				9F1303CE2D2C630F00E74832 /* ErrorResponseModel.swift in Sources */,
 				9F1303A12D2724A900E74832 /* UserRequestModel.swift in Sources */,
 				9F1303D02D2C652600E74832 /* VoidResponse.swift in Sources */,
 				9F1303C42D2C58EE00E74832 /* Workout.swift in Sources */,
+				9FE7B0912D2DB0590098F9F1 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,6 +947,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TrophyFitness/Preview Content\"";
 				DEVELOPMENT_TEAM = Z2BHKKWGC2;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrophyFitness/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -884,6 +979,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TrophyFitness/Preview Content\"";
 				DEVELOPMENT_TEAM = Z2BHKKWGC2;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrophyFitness/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -935,6 +1031,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9FE7B0832D2CB0700098F9F1 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.45.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FE7B0842D2CB0700098F9F1 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FE7B0832D2CB0700098F9F1 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		9FE7B0862D2CB0700098F9F1 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FE7B0832D2CB0700098F9F1 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F467B932D24B92A004E403A /* Project object */;
 }

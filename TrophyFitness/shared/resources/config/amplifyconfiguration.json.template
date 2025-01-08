@@ -1,0 +1,47 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "auth": {
+        "plugins": {
+            "awsCognitoAuthPlugin": {
+                "UserAgent": "aws-amplify/cli",
+                "Version": "0.1.0",
+                "IdentityManager": {
+                    "Default": {}
+                },
+                "CognitoUserPool": {
+                    "Default": {
+                        "PoolId": "${COGNITO_POOL_ID}",
+                        "AppClientId": "${COGNITO_APP_CLIENT_ID}",
+                        "Region": "${AWS_REGION}"
+                    }
+                },
+                "Auth": {
+                    "Default": {
+                        "authenticationFlowType": "USER_SRP_AUTH",
+                        "socialProviders": [],
+                        "usernameAttributes": ["EMAIL"],
+                        "signupAttributes": ["EMAIL"],
+                        "passwordProtectionSettings": {
+                            "passwordPolicyMinLength": 8,
+                            "passwordPolicyCharacters": []
+                        },
+                        "mfaConfiguration": "OFF",
+                        "mfaTypes": ["SMS"],
+                        "verificationMechanisms": ["EMAIL"]
+                    }
+                }
+            }
+        }
+    },
+    "api": {
+        "plugins": {
+            "awsAPIPlugin": {
+                "TrophyFitnessAPI": {
+                    "endpoint": "${API_GATEWAY_ENDPOINT}",
+                    "region": "${AWS_REGION}"
+                }
+            }
+        }
+    }
+}

@@ -16,5 +16,5 @@ struct WorkoutResponseModel: Codable {
     let difficulty: Int?
     let createdAt: String
     let updatedAt: String
-    let exercises: [ExerciseResponseModel]
+    let exercises: [CreateExerciseResponseModel]
 }

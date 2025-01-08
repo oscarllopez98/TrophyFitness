@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-trophyfitness-dev-ae7c2-authRole",
+      "UnauthRoleArn": "arn:aws:iam::395564754259:role/amplify-trophyfitness-dev-ae7c2-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::395564754259:role/amplify-trophyfitness-dev-ae7c2-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-trophyfitness-dev-ae7c2-deployment",
+      "UnauthRoleName": "amplify-trophyfitness-dev-ae7c2-unauthRole",
+      "StackName": "amplify-trophyfitness-dev-ae7c2",
+      "StackId": "arn:aws:cloudformation:us-east-1:395564754259:stack/amplify-trophyfitness-dev-ae7c2/08d3d490-cc8d-11ef-b9cf-0afff28b3031",
+      "AmplifyAppId": "d2fmn8t4at74io"
+    },
+    "categories": {
+      "auth": {
+        "trophyfitness44287690": {}
+      }
+    }
+  }
+}

@@ -1,2 +1,9 @@
 # Exclude .xcconfig files to avoid committing sensitive URLs
 *.xcconfig
+
+# Ignore actual config files
+#awsconfiguration.json
+#amplifyconfiguration.json
+
+# Ignore .env file
+.env
