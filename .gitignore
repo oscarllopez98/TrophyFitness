@@ -6,4 +6,4 @@ awsconfiguration.json
 amplifyconfiguration.json
 
 # Ignore .env file
-.env
+.envbuild/
