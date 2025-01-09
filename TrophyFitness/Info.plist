@@ -6,7 +6,7 @@
 	<string>$(BASE_URL_DEV)</string>
 	<key>BASE_URL_PROD</key>
 	<string>$(BASE_URL_PROD)</string>
-    <key>CFBundleIconName</key>
-    <string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
 </dict>
 </plist>

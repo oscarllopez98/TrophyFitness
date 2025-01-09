@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		06DF03721FEB3FE08112F276 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A33C1A5CF82C9A22139DF32D /* awsconfiguration.json */; };
 		0A20C53A53637BB51DC994CD /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A777C8AE7A8EFAC46C35030 /* amplifyconfiguration.json */; };
+		9F0C0DCA2D2F4DCD006E507A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C0DC92D2F4DCD006E507A /* Assets.xcassets */; };
 		9F1303A12D2724A900E74832 /* UserRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303A02D2724A900E74832 /* UserRequestModel.swift */; };
 		9F1303A32D2724BB00E74832 /* WorkoutRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303A22D2724BB00E74832 /* WorkoutRequestModel.swift */; };
 		9F1303A52D2724C900E74832 /* ExerciseRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1303A42D2724C900E74832 /* ExerciseRequestModel.swift */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		0A777C8AE7A8EFAC46C35030 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		9F0C0DC92D2F4DCD006E507A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1303A02D2724A900E74832 /* UserRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequestModel.swift; sourceTree = "<group>"; };
 		9F1303A22D2724BB00E74832 /* WorkoutRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRequestModel.swift; sourceTree = "<group>"; };
 		9F1303A42D2724C900E74832 /* ExerciseRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRequestModel.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 		9F467B9D2D24B92A004E403A /* TrophyFitness */ = {
 			isa = PBXGroup;
 			children = (
+				9F0C0DC92D2F4DCD006E507A /* Assets.xcassets */,
 				9F1303E92D2C6D2300E74832 /* Info.plist */,
 				9F467BC82D24BF5E004E403A /* frontend */,
 				9F467BD32D24BF5E004E403A /* shared */,
@@ -697,6 +700,7 @@
 				9F1303BB2D2A1D0A00E74832 /* Config.xcconfig in Resources */,
 				06DF03721FEB3FE08112F276 /* awsconfiguration.json in Resources */,
 				0A20C53A53637BB51DC994CD /* amplifyconfiguration.json in Resources */,
+				9F0C0DCA2D2F4DCD006E507A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
