@@ -5,41 +5,34 @@
 //  Created by Oscar Lopez on 12/31/24.
 //
 
-import SwiftUI
 import Amplify
+import Authenticator
 import AWSCognitoAuthPlugin
+import SwiftUI
 
 @main
 struct TrophyFitnessApp: App {
-    // App state to track if the user is signed in
-    @StateObject private var authViewModel = AuthViewModel()
-
     init() {
-        configureAmplify()
+        do {
+            try Amplify.add(plugin: AWSCognitoAuthPlugin())
+            try Amplify.configure(with: .amplifyOutputs)
+        } catch {
+            print("Unable to configure Amplify \(error)")
+        }
     }
 
     var body: some Scene {
         WindowGroup {
-            if authViewModel.isSignedIn {
-                HomeView() // Main app content
-            } else {
-                AuthView() // Custom sign-in/signup view
+            Authenticator { state in
+                VStack {
+                    Text("Hello, \(state.user.username)")
+                    Button("Sign out") {
+                        Task {
+                            await state.signOut()
+                        }
+                    }
+                }
             }
-        }
-    }
-
-    /// Configures Amplify with the necessary plugins.
-    private func configureAmplify() {
-        do {
-            // Add Cognito Auth Plugin
-            try Amplify.add(plugin: AWSCognitoAuthPlugin())
-            
-            // Configure Amplify
-            try Amplify.configure()
-            
-            print("Amplify configured successfully")
-        } catch {
-            print("Failed to configure Amplify: \(error.localizedDescription)")
         }
     }
 }

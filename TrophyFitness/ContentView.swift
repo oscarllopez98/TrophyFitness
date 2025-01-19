@@ -6,16 +6,31 @@
 //
 
 import SwiftUI
+//import Authenticator
 
 struct ContentView: View {
     var body: some View {
+//        Authenticator { state in
+//            if state.isSignedIn {
+//                HomeView()
+//            } else {
+//                WelcomeView()
+//            }
+//        }
+        WelcomeView()
+    }
+}
+
+struct WelcomeView: View {
+    var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Welcome to TrophyFitness!")
+                .font(.largeTitle)
+                .padding()
+
+            Text("Please sign in or sign up to continue.")
+                .padding()
         }
-        .padding()
     }
 }
 

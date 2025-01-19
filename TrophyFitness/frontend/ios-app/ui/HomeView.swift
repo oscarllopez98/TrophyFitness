@@ -13,6 +13,7 @@ struct HomeView: View {
     @State private var message: String = ""
     @State private var exerciseIdInput: String = ""
     @State private var queryInput: String = ""
+    @EnvironmentObject var authViewModel: AuthViewModel
 
     var body: some View {
         VStack(spacing: 20) {
@@ -75,6 +76,18 @@ struct HomeView: View {
                 }
                 .buttonStyle(ActionButtonStyle())
             }
+            Spacer()
+
+            // Sign Out Button
+            Button("Sign Out") {
+                Task {
+                    await authViewModel.signOut()
+                }
+            }
+            .padding()
+            .background(Color.red)
+            .foregroundColor(.white)
+            .cornerRadius(8)
         }
         .padding()
     }

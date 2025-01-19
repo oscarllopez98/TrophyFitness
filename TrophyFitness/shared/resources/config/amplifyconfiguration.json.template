@@ -19,16 +19,13 @@
                 "Auth": {
                     "Default": {
                         "authenticationFlowType": "USER_SRP_AUTH",
-                        "socialProviders": [],
-                        "usernameAttributes": ["EMAIL"],
-                        "signupAttributes": ["EMAIL"],
-                        "passwordProtectionSettings": {
-                            "passwordPolicyMinLength": 8,
-                            "passwordPolicyCharacters": []
-                        },
-                        "mfaConfiguration": "OFF",
-                        "mfaTypes": ["SMS"],
-                        "verificationMechanisms": ["EMAIL"]
+                        "OAuth": {
+                            "WebDomain": "${COGNITO_WEB_DOMAIN}",
+                            "AppClientId": "${COGNITO_APP_CLIENT_ID}",
+                            "SignInRedirectURI": "trophyfitness://signin",
+                            "SignOutRedirectURI": "trophyfitness://signout",
+                            "Scopes": ["openid", "email", "profile"]
+                        }
                     }
                 }
             }
