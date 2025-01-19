@@ -8,5 +8,16 @@
 	<string>$(BASE_URL_PROD)</string>
 	<key>CFBundleIconName</key>
 	<string>AppIcon</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.trophyfitness.app</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>trophyfitness</string>
+            </array>
+        </dict>
+    </array>
 </dict>
 </plist>

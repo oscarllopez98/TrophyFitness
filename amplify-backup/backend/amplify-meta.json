@@ -1,0 +1,55 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-trophyfitness-dev-ae7c2-authRole",
+      "UnauthRoleArn": "arn:aws:iam::395564754259:role/amplify-trophyfitness-dev-ae7c2-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::395564754259:role/amplify-trophyfitness-dev-ae7c2-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-trophyfitness-dev-ae7c2-deployment",
+      "UnauthRoleName": "amplify-trophyfitness-dev-ae7c2-unauthRole",
+      "StackName": "amplify-trophyfitness-dev-ae7c2",
+      "StackId": "arn:aws:cloudformation:us-east-1:395564754259:stack/amplify-trophyfitness-dev-ae7c2/08d3d490-cc8d-11ef-b9cf-0afff28b3031",
+      "AmplifyAppId": "d2fmn8t4at74io"
+    }
+  },
+  "auth": {
+    "trophyfitness44287690": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "output": {
+        "UserPoolId": "us-east-1_LDa0ksmZh",
+        "AppClientIDWeb": "18v6o5saicnhm0v7ck1odr75hv",
+        "AppClientID": "231gp383kk35idgf7ebgamoe2e",
+        "IdentityPoolId": "us-east-1:8519ee45-d87c-4d3c-971e-504e334dfdae",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:395564754259:userpool/us-east-1_LDa0ksmZh",
+        "IdentityPoolName": "trophyfitness44287690_identitypool_44287690__dev",
+        "UserPoolName": "trophyfitness44287690_userpool_44287690"
+      },
+      "lastPushTimeStamp": "2025-01-19T22:28:13.058Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-trophyfitness-dev-ae7c2-deployment/amplify-cfn-templates/auth/trophyfitness44287690-cloudformation-template.json",
+        "logicalId": "authtrophyfitness44287690"
+      }
+    }
+  }
+}

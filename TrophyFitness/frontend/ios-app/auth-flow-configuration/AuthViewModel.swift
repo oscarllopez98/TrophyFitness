@@ -2,7 +2,7 @@
 //  AuthViewModel.swift
 //  TrophyFitness
 //
-//  Created by Oscar Lopez on 1/7/25.
+//  Created by Oscar Lopez on 1/6/25.
 //
 
 import Foundation
@@ -17,7 +17,7 @@ class AuthViewModel: ObservableObject {
         }
     }
 
-    // MARK: - Fetch Auth Session
+    // Fetch the current authentication session
     func fetchAuthSession() async {
         do {
             let session = try await Amplify.Auth.fetchAuthSession()
@@ -29,7 +29,7 @@ class AuthViewModel: ObservableObject {
         }
     }
 
-    // MARK: - Sign Out
+    // Sign out the user
     func signOut() async {
         do {
             try await Amplify.Auth.signOut()

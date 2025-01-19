@@ -72,23 +72,6 @@
             ReferencedContainer = "container:TrophyFitness.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "COGNITO_POOL_ID"
-            value = "us-east-1_ydYzLL5Dj"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "COGNITO_APP_CLIENT_ID"
-            value = "4bine2jpmee34ggdbee4p0v5pm"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "AWS_REGION"
-            value = "us-east-1"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
